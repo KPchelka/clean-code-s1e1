@@ -45,10 +45,16 @@
 .title-section {
   list-style: none;
 }
-.checkbox-task, .task, .edit, .delete, .add {
+.checkbox-task,
+.task,
+.edit,
+.delete,
+.add {
   outline: none;
 }
-.edit, .delete, .add {
+.edit,
+.delete,
+.add {
   background: none;
   border: 0px;
   color: #888;
