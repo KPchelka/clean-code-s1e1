@@ -30,7 +30,7 @@
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .task-row-wrapper {
   display: flex;
@@ -120,7 +120,7 @@
   width: 226px;
 }
 .item-list > input.task {
-  width: 226px
+  width: 226px;
 }
 .delete .img-delete {
   height: 2em;
@@ -140,13 +140,13 @@
 /* Edit Task */
 .incomplete-list .item-list input.task,
 .completed-list .item-list input.task {
-  display: none
+  display: none;
 }
 
 .incomplete-list .edit-mode input.task,
 .completed-list .edit-mode input.task {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 .incomplete-list .edit-mode .title,
 .completed-list .edit-mode .title {
