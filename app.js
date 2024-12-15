@@ -19,6 +19,7 @@ var createNewTaskElement=function(taskString){
 
   var listItem=document.createElement("li");
 
+
   //input (checkbox)
   var checkBox=document.createElement("input");//checkbx
   //label
@@ -33,10 +34,11 @@ var createNewTaskElement=function(taskString){
   var deleteButtonImg=document.createElement("img");//delete button image
 
   label.innerText=taskString;
-  label.className='task';
+  label.className='task title';
 
   //Each elements, needs appending
   checkBox.type="checkbox";
+  checkBox.className="checkbox-task";
   editInput.type="text";
   editInput.className="task";
 
@@ -44,11 +46,13 @@ var createNewTaskElement=function(taskString){
   editButton.className="edit";
 
   deleteButton.className="delete";
+  deleteButtonImg.className="img-delete";
   deleteButtonImg.src="./remove.svg";
   deleteButton.appendChild(deleteButtonImg);
 
 
   //and appending.
+  listItem.className="item-list";
   listItem.appendChild(checkBox);
   listItem.appendChild(label);
   listItem.appendChild(editInput);
