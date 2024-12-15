@@ -37,16 +37,16 @@
 }
 .incomplete-list,
 .completed-list{
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 .incomplete-item,
 .completed-item,
 .title-section {
-  list-style:none;
+  list-style: none;
 }
 .checkbox-task, .task, .edit, .delete, .add {
-  outline:none;
+  outline: none;
 }
 .edit, .delete, .add {
   background: none;
@@ -140,15 +140,15 @@
 /* Edit Task */
 .incomplete-list .item-list input.task,
 .completed-list .item-list input.task {
-  display:none
+  display: none
 }
 
 .incomplete-list .edit-mode input.task,
 .completed-list .edit-mode input.task {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 .incomplete-list .edit-mode .title,
 .completed-list .edit-mode .title {
-  display:none;
+  display: none;
 }
