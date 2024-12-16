@@ -10,10 +10,10 @@
   display: block;
   text-align: right;
 }
-.hero .img-hero {
+.hero .hero__img {
   width: 100%;
 }
-.hero .more-inf {
+.hero .hero__link {
   font-family: fantasy, cursive;
 }
 
@@ -32,7 +32,7 @@
   display: inline-block;
   flex-grow: 1;
 }
-.task-row-wrapper {
+.add-task__add-element {
   display: flex;
 }
 .incomplete-list,
