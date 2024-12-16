@@ -4,21 +4,21 @@
   color: #333;
   font-family: Lato, sans-serif;
 }
-.hero-section {
+.hero {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.hero-section .img-hero {
+.hero .img-hero {
   width: 100%;
 }
-.hero-section .more-inf {
+.hero .more-inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .hero-section {
+  .hero {
     text-align: center;
   }
 }
